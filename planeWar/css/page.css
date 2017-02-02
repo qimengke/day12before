@@ -1,0 +1,14 @@
+*{padding: 0;margin: 0;}
+button{outline: none;}
+.contentDiv{position: absolute;}
+.startDiv{position: absolute; background: url(../img/开始背景.png) no-repeat;width: 320px;height: 568px;}
+.startDiv button{position: relative;margin: 0 auto;width: 100px;height: 40px;line-height: 40px;border: 1px solid #000;background-color: #e5e5e5;top: 460px;display: block;border-radius:20px;}
+img{position: absolute;}
+.mainDiv{width: 320px;height: 568px;background: url(../img/background_1.png);position: absolute;display: none;}
+.scoreDiv{position: absolute;top: 5px;left: 5px;display: none;}
+.suspendDiv{position: absolute;top: 194px; left: 106px;display: none;}
+.suspendDiv button{position: relative;margin: 0 auto;width: 100px;height: 40px;line-height: 40px;border: 1px solid #000;background-color: #e5e5e5;display: block;border-radius:20px;}
+.endDiv{position: absolute;width: 150px;height: 150px;background-color: #E5E5E5;border: 1px solid #000;border-radius: 10px;top: 176px; left: 78px;display: none;}
+.endDiv button{position: relative;margin: 0 auto;width: 100px;height: 40px;line-height: 40px;border: 1px solid #000;background-color: #e5e5e5;display: block;border-radius:20px;}
+.endDiv p:nth-of-type(1){margin-top: 25px;padding-left: 10px;margin-bottom: 10px;}
+.endDiv p:nth-of-type(2){padding-left: 10px;}
